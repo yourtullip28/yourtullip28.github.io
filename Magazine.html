@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atimonan Website</title>
+
+    <link rel="stylesheet" href="Magazine.css">
+
+    <!--Bootstrap Link-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Bootstrap Link-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Font Awesome Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Font Awesome Cdn -->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!--Google Fonts-->
+
+</head>
+<body>
+    
+     <!--Navigation Bar-->
+     <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>A</span>timonan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+               <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link active" href="destination.html">Where to go</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Magazine.html">Magazine</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!--Navigation Bar End-->
+   
+
+      <!--Home Section Start-->
+      <div class="home">
+        <div class="content">
+            <h5>Welcome To Atimonan</h5>
+            <h1>Discover its <span class="changecontent" ></span></h1>
+            <p></p>
+            <a href="#services">Learn more</a>
+        </div>
+      </div>
+       <!--Home Section End-->
+     
+       <!--Magazines Starts-->
+       <section class="services" id="services">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1><span>Discover</span></h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+               <div class="col-md-4 py-3 py-md-0">
+               
+                    <div class="card"> 
+                        <i class="fas fa-masks-theater"></i>
+                        <div class="card-body">
+                            <h3>Tradition</h3>
+                            <p>Discover more about Atimonan's Tradition</p>
+                            <a href="#tradition">View More</a>
+                      </div>
+                     </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <i class="fa fa-history"></i>
+                        <div class="card-body">
+                            <h3>History</h3>
+                            <p>Learn more about Atimonan's history</p>
+                            <a href="#history">View More</a>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                
+                    <div class="card">
+                        <i class="fas fa-paintbrush"></i>
+                        <div class="card-body">
+                            <h3>Culture</h3>
+                            <p>Know more about Culture of Atimonanins</p>
+                            <a href="#culture">View More</a>
+                    </div>
+                     </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+   <!--Magazine Ends-->
+
+   <!--History Starts-->
+    <section class="about" id="history">
+        <div class="container">
+
+            <div class="main-txt">
+                <h1><span>History</span></h1>
+            </div>
+
+            <div class="row" style="margin-top: 0px;">
+
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="Magazine/history.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-3 py-md-0">
+                   <h2>The story about Atimonan</h2>
+                   <p id="demo">There were conflicting stories on how Atimonan got its name. Some concluded that the name Atimonan originated from a tree known as Atimon alleged to have been prevalent in the area and had reportedly served many uses to the residents. These trees are now extinct and its non-existence could not be accounted for.</p>
+                  
+                   <button type="button" onclick="history()" id="about-btn">Read More...</button> 
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    
+  <!--Culture-->
+  <section class="about" id="culture">
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>Culture</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 0px;">
+
+            <div class="col-md-6 py-3 py-md-0">
+               <h2>Culture of Atimonan</h2>
+               <p id="demo2">People from Atimonan are called Atimonanins. The primary language is Tagalog, with many local phrases and expressions. Manilans usually understand Atimonan Tagalog, albeit with some frustrations.</p>
+               <button type="button" onclick="culture()" id="about-btn">Read More...</button> 
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="Magazine/culture.png" alt="">
+                </div>
+            </div>
+
+           
+        </div>
+
+    </div>
+</section>
+
+<!--Tradition-->
+<section class="about" id="tradition">
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>Tradition</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 0px;">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="Magazine/tradition.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+               <h2>Have you heard about Tagultol Festival?</h2>
+               <p id="demo3">The Tagultol Festival is an evolution of various cultural activities, practiced in previous years by Atimonanins. The Town & Patronal Fiesta every August 1 & 2 is simply celebrated with the usual parade, </p>
+               <p></p>
+               <button type="button" onclick="tradition()" id="about-btn" >Read More...</button> 
+            </div>
+
+        </div>
+
+    </div>
+</section>
+  
+   <!--History Ends-->
+   
+  <!--Gallery Starts-->
+  <section class="gallery" id="gallery">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>Gallery</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal1.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal2.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal3.png" alt="" height="230px">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal4.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal5.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal6.png" alt="" height="230px">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal7.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal8.png" alt="" height="230px">
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="Gallery/gal9.png" alt="" height="230px">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Gallery Ends-->  
+
+<!--Delicacies-->
+<section class="pt-5 pb-5" id="slide">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>Delicacies</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del1.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Aplaya</h4>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del2.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Sumang Malagkit</h4>
+                                            <p class="card-text">a Filipino delicacy that's made of glutinous rice and coconut milk, wrapped in banana leaves, then steamed to sticky perfection.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del3.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Puto Bao</h4>
+                                            <p class="card-text">It has a filling of shredded coconut that gives it its sweet taste</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del4.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Maruya</h4>
+                                            <p class="card-text">a fried dish of sliced saba banana mixed and coated with an egg-and-flour batter.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del5.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Espasol</h4>
+                                            <p class="card-text">a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del6.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Pinangat</h4>
+                                            <p class="card-text">a blend of taro leaves, chili, meat and coconut milk wrapped in gabi leaves and tied securely with coconut leaf.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del7.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Bibingka</h4>
+                                            <p class="card-text">has a texture ranging from a soft spongy texture similar to puto, another Philippine rice cake, to a soft but firm texture.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del8.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Pinais na Hipon</h4>
+                                            <p class="card-text">Grated young coconut and shrimp are wrapped in banana leaves, slow-cooked in coconut milk, and then grilled over hot coals to add a nice char and a smoky flavor.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="Delicacies/del9.png">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Niyubak</h4>
+                                            <p class="card-text"> made of mashed kamoteng kahoy (yucca root or cassava), you can also use kamote (sweet potato) or saging na saba with sugar or milk to taste. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-light mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-light mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+    </div>
+</section>
+    
+     <!--Footer Starts-->
+     <footer id="footer">
+        <h1><span>A</span>timonan</h1>
+        <p>This is a website which main purpose is to expand and boost the tourism of the Municipal of Atimonan.</p>
+
+        <div class="social-links">
+            <a href="https://twitter.com/atimonanturismo?s=21&t=juab7rwvjJkWngRuTo47kQ"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/atimonantourismoffice"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/atimonan_tourismoffice/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="credit">
+            <p>Designed By <a href="#">Ali</a></p>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;Copyright Ali. All Rights Reserved</p>
+        </div>
+       </footer>
+       <!--Footer Ends-->
+
+    <script src="Magazine.js"></script>
+</body>
+</html>
